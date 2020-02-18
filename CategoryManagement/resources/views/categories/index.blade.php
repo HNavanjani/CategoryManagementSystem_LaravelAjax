@@ -102,6 +102,10 @@
             $('#categoryForm').trigger("reset");
             $('#categoryCrudModal').html("Add New Category");
             $('#ajax-crud-modal').modal('show');
+
+            //console.log($('meta[name="csrf-token"]').attr('content')); 
+
+
         });
  
         /* When click edit  */
